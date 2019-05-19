@@ -1,0 +1,23 @@
+{
+  "name": "umi_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "umi dev",
+    "build": "umi build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "umi": "^2.6.10",
+    "umi-plugin-react": "^1.7.2"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "axios": "^0.18.0",
+    "bizcharts": "^3.5.2"
+  }
+}
