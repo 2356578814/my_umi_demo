@@ -12,14 +12,69 @@ let routes = [
     "component": require('../../layouts/index.js').default,
     "routes": [
       {
+        "path": "/users",
+        "exact": true,
+        "component": require('../users/index.js').default
+      },
+      {
         "path": "/",
         "exact": true,
         "component": require('../index.js').default
       },
       {
+        "path": "/Dashboard/Analysis",
+        "exact": true,
+        "component": require('../Dashboard/Analysis.js').default
+      },
+      {
+        "path": "/Dashboard/Monitor",
+        "exact": true,
+        "component": require('../Dashboard/Monitor.js').default
+      },
+      {
+        "path": "/Dashboard/Workplace",
+        "exact": true,
+        "component": require('../Dashboard/Workplace.js').default
+      },
+      {
+        "path": "/css-modules-with-antd",
+        "exact": true,
+        "component": require('../css-modules-with-antd/index.jsx').default
+      },
+      {
         "path": "/404",
         "exact": true,
         "component": require('../404.js').default
+      },
+      {
+        "path": "/a/models/b",
+        "exact": true,
+        "component": require('../a/models/b.js').default
+      },
+      {
+        "path": "/a/a",
+        "exact": true,
+        "component": require('../a/a.js').default
+      },
+      {
+        "path": "/visible/pages",
+        "exact": true,
+        "component": require('../visible/pages.js').default
+      },
+      {
+        "path": "/css-modules-with-less",
+        "exact": true,
+        "component": require('../css-modules-with-less/index.jsx').default
+      },
+      {
+        "path": "/users/list",
+        "exact": true,
+        "component": require('../users/list.js').default
+      },
+      {
+        "path": "/visible/compon/pag",
+        "exact": true,
+        "component": require('../visible/compon/pag.js').default
       },
       {
         "path": "/BizCharts",
@@ -45,61 +100,6 @@ let routes = [
         "path": "/register",
         "exact": true,
         "component": require('../register.js').default
-      },
-      {
-        "path": "/css-modules-with-less",
-        "exact": true,
-        "component": require('../css-modules-with-less/index.jsx').default
-      },
-      {
-        "path": "/Dashboard/Analysis",
-        "exact": true,
-        "component": require('../Dashboard/Analysis.js').default
-      },
-      {
-        "path": "/Dashboard/Monitor",
-        "exact": true,
-        "component": require('../Dashboard/Monitor.js').default
-      },
-      {
-        "path": "/css-modules-with-antd",
-        "exact": true,
-        "component": require('../css-modules-with-antd/index.jsx').default
-      },
-      {
-        "path": "/users",
-        "exact": true,
-        "component": require('../users/index.js').default
-      },
-      {
-        "path": "/users/list",
-        "exact": true,
-        "component": require('../users/list.js').default
-      },
-      {
-        "path": "/Dashboard/Workplace",
-        "exact": true,
-        "component": require('../Dashboard/Workplace.js').default
-      },
-      {
-        "path": "/visible/compon/pag",
-        "exact": true,
-        "component": require('../visible/compon/pag.js').default
-      },
-      {
-        "path": "/visible/pages",
-        "exact": true,
-        "component": require('../visible/pages.js').default
-      },
-      {
-        "path": "/a/models/b",
-        "exact": true,
-        "component": require('../a/models/b.js').default
-      },
-      {
-        "path": "/a/a",
-        "exact": true,
-        "component": require('../a/a.js').default
       },
       {
         "path": "/weChat",
